@@ -1,7 +1,7 @@
 require(ggplot2)
 require(dplyr)
-require("jsonlite")
-require("RCurl")
+require(jsonlite)
+require(RCurl)
 
 # Leaving username and key in to avoid error during R Markdown knitting, especially if replicated. Normally would be left as uredacted and predacted and changed through the console.
 uredacted = 'srijanalla'
