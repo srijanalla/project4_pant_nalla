@@ -1,0 +1,11 @@
+name: blargh
+title:
+account: jamisonholt
+server: shinyapps.io
+appId: 167657
+bundleId: 766084
+url: https://jamisonholt.shinyapps.io/blargh/
+when: 1490662963.83963
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Access_data.world_Database.R

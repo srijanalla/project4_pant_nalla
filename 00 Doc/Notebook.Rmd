@@ -1,0 +1,39 @@
+---
+title: "<center><b>Unemployment Visualization 2008-2010</b></center>"
+author: "<center><b>Anand Pant, Srija Nalla</b></center>"
+output:
+  html_document:
+    toc: yes
+  html_notebook:
+    toc: yes
+---
+<center>![unemployment](unemployment.jpg)</center>
+
+#**Introduction**
+We are examing the countries with the highest unemployment rates. 
+
+#**R Configuration**
+Below we display our sessionInfo().
+
+```{r sessionInfo}
+sessionInfo(package=NULL)
+```
+
+#**The Data**
+
+```{r echo=FALSE}
+source("../01 Data/Access data.world Database.R")
+```
+
+#**Comparing Labor Forces by Country**
+```{r echo=FALSE}
+source("../02 Shiny/server.R")
+```
+
+
+#**Comparing Unemployment across years**
+#```{r echo=FALSE}
+#source("../03 Visualizations/Unemployment Rate By Continent.R")
+```
+#![](6unemp.png)</center>
+
